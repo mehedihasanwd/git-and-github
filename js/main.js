@@ -1,22 +1,20 @@
 const clock = document.getElementById("demo");
 const btn = document.getElementById("btn");
+let clockId = null;
 
-const startTimer = () => {
-  if (btn.textContent === "Hide Time") {
-    clock.textContent = new Date().toLocaleTimeString();
-  } else {
-    clock.textContent = "";
-  }
+const displayClock = () => {
+  clock.textContent = new Date().toLocaleTimeString();
 };
 
 btn.onclick = () => {
-  if (!clock.textContent) {
+  if (!clockId) {
     btn.textContent = "Hide Time";
-    setInterval(startTimer, 1000);
-  }
-
-  if (clock.textContent) {
+    clockId = setInterval(displayClock, 1000);
+    displayClock();
+  } else {
+    clearInterval(clockId);
     btn.textContent = "Show Time";
-    clearInterval(startTimer);
+    clock.textContent = "";
+    clockId = null;
   }
 };
