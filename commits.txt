@@ -23,3 +23,9 @@ git rm -r <folderName> -> remove unstaged folder and its containing resources.
 git rm -r <folderName> -f -> delete the commited folder/s along with its containing file/s.
 
 git rm --cached <fileName> -> remove files from staging area but remains in local working directory/repo.
+
+git branch -> check all the existing branch
+
+git branch <branchName> -> create a new branch
+
+git checkout <branchName> -> switch to the branch
