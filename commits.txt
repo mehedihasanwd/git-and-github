@@ -29,3 +29,7 @@ git branch -> check all the existing branch
 git branch <branchName> -> create a new branch
 
 git checkout <branchName> -> switch to the branch
+
+git merge <branchName> -> merge with the branch
+
+git merge <branchName> -m "message" -> merge with the branch along with commit message
