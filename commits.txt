@@ -1,0 +1,17 @@
+git init - Initialize local repository
+
+git clone <github repository link> - Clone remote project to local machine
+
+git status - Shows local git repository current branch status
+
+git add --all/-A - add all the files and folders of all directory
+
+git add . - add all the files and folders of current directory
+
+git add * - add all the files except deleted one/s
+
+git add *.txt - add all the files whose extension is .txt
+
+git add <filName/folderName> - Add specific file/s, folder/s
+
+git reset - get back to unstaged/untracked status

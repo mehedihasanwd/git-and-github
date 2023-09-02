@@ -1,0 +1,14 @@
+{
+  "name": "git-and-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mehedihasanwd/git-and-github",
+  "author": "Mehedi Hasan <hellomehediwd@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./js/main.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
