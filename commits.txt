@@ -14,4 +14,12 @@ git add *.txt - add all the files whose extension is .txt
 
 git add <filName/folderName> - Add specific file/s, folder/s
 
-git reset - get back to unstaged/untracked status
+git reset -> get back to unstaged/untracked status
+
+git rm <fileName> -f -> delete commited file/s forcefully.
+
+git rm -r <folderName> -> remove unstaged folder and its containing resources.
+
+git rm -r <folderName> -f -> delete the commited folder/s along with its containing file/s.
+
+git rm --cached <fileName> -> remove files from staging area but remains in local working directory/repo.
