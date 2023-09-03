@@ -16,6 +16,8 @@ git add <filName/folderName> -> Add specific file/s, folder/s
 
 git reset -> get back to unstaged/untracked status
 
+git reset --hard <commit> -> Resets your working directory and branch to a specific commit.
+
 git rm <fileName> -f -> delete commited file/s forcefully.
 
 git rm -r <folderName> -> remove unstaged folder and its containing resources.
@@ -34,6 +36,9 @@ git merge <branchName> -> merge with the branch
 
 git merge <branchName> -m "message" -> merge with the branch along with commit message
 
-git stash -> saves staged and unstaged changes of working directory in a new stash.
+git stash -> Temporarily saves your changes in a "stash" so you can switch branches or apply them later.
 
 git stash pop -> pops out the stash resources
+
+git remote -v -> Lists the remote repositories associated with your local repository.
+
