@@ -18,6 +18,8 @@ git reset -> get back to unstaged/untracked status
 
 git reset --hard <commit> -> Resets your working directory and branch to a specific commit.
 
+git restore --staged <fileName> -> Restore files to unstaging status
+
 git rm <fileName> -f -> delete commited file/s forcefully.
 
 git rm -r <folderName> -> remove unstaged folder and its containing resources.
