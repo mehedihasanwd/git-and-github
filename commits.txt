@@ -41,4 +41,3 @@ git stash -> Temporarily saves your changes in a "stash" so you can switch branc
 git stash pop -> pops out the stash resources
 
 git remote -v -> Lists the remote repositories associated with your local repository.
-
