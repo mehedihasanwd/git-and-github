@@ -33,3 +33,7 @@ git checkout <branchName> -> switch to the branch
 git merge <branchName> -> merge with the branch
 
 git merge <branchName> -m "message" -> merge with the branch along with commit message
+
+git stash -> saves staged and unstaged changes of working directory in a new stash.
+
+git stash pop -> pops out the stash resources
