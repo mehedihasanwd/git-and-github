@@ -45,3 +45,23 @@ git stash -> Temporarily saves your changes in a "stash" so you can switch branc
 git stash pop -> pops out the stash resources
 
 git remote -v -> Lists the remote repositories associated with your local repository.
+
+git log -p -> Shows the commit's history including all files and their changes 
+
+git show <commit> -> Shows specific commit details
+
+git log --stat -> This command will cause the Git log to show some statistics about the changes in each commit, including line(s) changed and file names
+
+git add -p -> This command opens a prompt and asks if you want to stage changes or not, and includes other options.
+
+git rm <fileName> -> Remove tracked file/s from current working directory
+
+git mv <oldFile> <newFile> -> Change file name after staging
+
+git revert HEAD -> Switch back and edit the latest commit. This opens a new editor to edit commit.
+
+git revert <commit> -> Switch back to an old commit using its "commit id". This opens the editor so we can add a commit message.
+
+git log --graph --oneline -> Shows the commit log as a graph.
+
+git log --graph --oneline --all -> Shows the commit log as a graph for all branches
