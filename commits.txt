@@ -22,7 +22,6 @@ git restore --staged <fileName> -> Restore files to unstaging status
 
 git restore <fileName> -> get back the deleted file
 
-
 git rm <fileName> -f -> delete commited file/s forcefully.
 
 git rm -r <folderName> -> remove unstaged folder and its containing resources.
