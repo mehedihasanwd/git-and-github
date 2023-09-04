@@ -65,3 +65,11 @@ git revert <commit> -> Switch back to an old commit using its "commit id". This 
 git log --graph --oneline -> Shows the commit log as a graph.
 
 git log --graph --oneline --all -> Shows the commit log as a graph for all branches
+
+git remote show origin -> Shows more info about a remote repo.
+
+git log origin/<branchName> -> Check the current commits log of a remote repo.
+
+git merge origin/<branchName> -> Merge a remote repo with local repo
+
+git push -f -> Force a push request
